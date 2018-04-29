@@ -1,0 +1,9 @@
+.__progress-bar {
+    width: 80%;
+    display: inline-block;
+}
+
+.__progress-label {
+    width: 20%;
+    display: inline-block;
+}
