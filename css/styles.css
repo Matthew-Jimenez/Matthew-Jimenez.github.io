@@ -1,9 +1,39 @@
-.__progress-bar {
-    width: 80%;
-    display: inline-block;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    opacity: 1;
+    animation: fadeIn 1s 1;
 }
 
-.__progress-label {
-    width: 20%;
-    display: inline-block;
+.project-header {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 992px ){
+    .project-header {
+        margin-bottom: 100px;
+    }
+}
+
+.projects {
+    cursor: pointer;
+    opacity: .2;
+    border-radius: 5px;
+}
+
+.projects:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 10px 2px black;    
+}
+
+.progress {
+    margin-bottom: 7.5px;
 }
