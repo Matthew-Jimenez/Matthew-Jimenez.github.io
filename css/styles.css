@@ -12,6 +12,7 @@
     animation: fadeIn 1s 1;
 }
 
+
 .project-header {
     color: grey;
     font-size: 1.1rem;
@@ -25,12 +26,10 @@
 
 .projects {
     cursor: pointer;
-    opacity: .2;
     border-radius: 5px;
 }
 
 .projects:hover {
-    opacity: 1;
     box-shadow: 0px 0px 10px 2px black;    
 }
 
