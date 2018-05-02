@@ -12,6 +12,26 @@
     animation: fadeIn 1s 1;
 }
 
+#hiThereContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    z-index: 99999; 
+    background-color: white;
+}
+
+#hiThereContainerInner {
+    position: relative;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, 0%); 
+    width: 100%; 
+    text-align: center; 
+    color: #aaaaaa;
+}
+
 
 .project-header {
     color: grey;
