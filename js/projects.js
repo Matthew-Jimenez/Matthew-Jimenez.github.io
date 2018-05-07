@@ -65,7 +65,29 @@ const projectTwoImages = [
 
 const imageWalkerTwo = new ImageWalker('project-2', projectTwoImages);
 
-const imageWalkerThree = new ImageWalker('project-3', projectOneImages);
+
+// image paths to loop over
+const projectThreeImages = [
+    "./img/coffee-1.PNG",
+    "./img/coffee-2.PNG",
+    "./img/coffee-3.PNG",
+    "./img/coffee-4.PNG",
+    "./img/coffee-5.PNG",
+    "./img/coffee-6.PNG"
+];
+
+const imageWalkerThree = new ImageWalker('project-3', projectThreeImages);
+
+// image paths to loop over
+const projectFourImages = [
+    "./img/utube-1.PNG",
+    "./img/utube-2.PNG",
+    "./img/utube-3.PNG",
+    "./img/utube-4.PNG",
+    "./img/utube-5.PNG"
+];
+
+const imageWalkerFour = new ImageWalker('project-4', projectFourImages);
 
 
 

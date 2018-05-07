@@ -20,10 +20,11 @@ function addOnTextLoop(){
     const hiThereInterval = setInterval(function() {
   
         if(hiThereCount > hiThereFullText.length - 1){
-            // switch to main content
+            // switch to main content once the whole string comes into view
             switchContainers();
             clearInterval(hiThereInterval);
         } else {
+            // add string to the DOM
             hiThere.innerText = hiThereFullText.slice(0, hiThereCount + 1);
             hiThereCount += 1;
         }
